@@ -1,0 +1,39 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.179.0/"
+  },
+  "tasks": {
+    "start": "deno run src/main.ts",
+    "dev": "deno run --watch src/main.ts"
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"],
+      "exclude": ["src/testdata/"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": [],
+      "exclude": []
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/"],
+      "exclude": ["src/testdata/"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 80,
+      "indentWidth": 4,
+      "singleQuote": false
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["src/"],
+      "exclude": []
+    }
+  }
+}
+
