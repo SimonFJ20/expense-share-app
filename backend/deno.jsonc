@@ -9,7 +9,7 @@
   "lint": {
     "files": {
       "include": ["src/"],
-      "exclude": ["src/testdata/"]
+      "exclude": []
     },
     "rules": {
       "tags": ["recommended"],
@@ -20,7 +20,7 @@
   "fmt": {
     "files": {
       "include": ["src/"],
-      "exclude": ["src/testdata/"]
+      "exclude": []
     },
     "options": {
       "useTabs": false,
